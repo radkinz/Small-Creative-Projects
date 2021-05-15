@@ -19,15 +19,15 @@ class Object {
       .getContext("2d");
     if (this.type == "rock") {
       this.img.src =
-        "https://cdn.glitch.com/eba8dd71-b3f4-455b-9f80-25695e2d4534%2Frock.png?v=1621045474139";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/rock.png";
     }
     if (this.type == "paper") {
       this.img.src =
-        "https://cdn.glitch.com/eba8dd71-b3f4-455b-9f80-25695e2d4534%2Fpaper.jpg?v=1621045657218";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/paper.jpg";
     }
     if (this.type == "scissors") {
       this.img.src =
-        "https://cdn.glitch.com/eba8dd71-b3f4-455b-9f80-25695e2d4534%2Fscissors.png?v=1621045530368";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/scissors.png";
     }
     ctx.drawImage(this.img, this.x, this.y, objectSize, objectSize);
   }
