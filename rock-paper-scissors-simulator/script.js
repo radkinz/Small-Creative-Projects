@@ -19,15 +19,15 @@ class Object {
       .getContext("2d");
     if (this.type == "rock") {
       this.img.src =
-        "/Small-Creative-Projects/rock-paper-scissors-simulator/rock.png";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/images/rock.png";
     }
     if (this.type == "paper") {
       this.img.src =
-        "/Small-Creative-Projects/rock-paper-scissors-simulator/paper.jpg";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/images/paper.jpg";
     }
     if (this.type == "scissors") {
       this.img.src =
-        "/Small-Creative-Projects/rock-paper-scissors-simulator/scissors.png";
+        "/Small-Creative-Projects/rock-paper-scissors-simulator/images/scissors.png";
     }
     ctx.drawImage(this.img, this.x, this.y, objectSize, objectSize);
   }
