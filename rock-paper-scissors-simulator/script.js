@@ -88,8 +88,8 @@ class Object {
   }
 }
 
-let object = [75];
-for (var i = 0; i < 75; i++) {
+let object = [100];
+for (var i = 0; i < 100; i++) {
   object[i] = new Object(random(objectSize, width-objectSize), random(objectSize, height-objectSize), 3, randomType());
   
   //not spawn too close
