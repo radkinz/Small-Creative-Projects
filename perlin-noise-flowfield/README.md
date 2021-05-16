@@ -1,3 +1,4 @@
+#Generative Art is Cool
 Today I decided to explore generative art, and ended up with generating a perlin noise flowfield. All the particles follow vectors, whose direction is determined using Perlin Noise
 to make the particles flow in a wind-like manner. I also added color to each particle's path based off a golden ratio related algorithm to further make everything visually satisfying.
 
