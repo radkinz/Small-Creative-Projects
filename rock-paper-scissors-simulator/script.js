@@ -5,8 +5,8 @@ c.height = window.innerHeight;
 
 //constants
 const objectSize = 20;
-const width = $("#canvas").width();
-const height = $("#canvas").height();
+const width = window.innerWidth;
+const height = window.innerHeight;
 
 class Object {
   constructor(xx, yy, v, t) {
