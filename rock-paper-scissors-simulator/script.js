@@ -1,3 +1,9 @@
+//set window take full screen
+let c = document.getElementById("myCanvas");
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+
+//constants
 const objectSize = 20;
 const width = $("#canvas").width();
 const height = $("#canvas").height();
@@ -129,7 +135,6 @@ function randomInt(max) {
 
 function randomType() {
   let val = randomInt(3);
-  console.log(val);
   if (val == 0) {
     return "rock";
   } else if (val == 1) {
