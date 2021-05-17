@@ -86,6 +86,4 @@ function loop() {
       pizza.splice(i, 1);
     }
   }
-  
-  console.log(pizza.length);
 }
