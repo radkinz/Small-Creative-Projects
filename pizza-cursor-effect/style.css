@@ -42,3 +42,19 @@ body {
   margin: 0;
 }
 
+#container {
+  position: relative;
+   display: flex;
+  justify-content: center;
+}
+
+#container canvas {
+  position: absolute;
+}
+
+#overlay {
+  position:absolute;
+  height: 100px;
+  font-size: 5vh;
+}
+
