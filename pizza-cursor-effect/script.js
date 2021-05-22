@@ -17,7 +17,7 @@ class Pizza {
     this.Vy = 2;
     this.img = new Image(this.size, this.size);
     this.img.src =
-      "https://cdn.glitch.com/dbbb2cf0-5002-4c3a-b450-631c342cbb46%2Fpizza.jpg?v=1621204298653";
+      "/Small-Creative-Projects/pizza-cursor-effect/images/pizzaaa.jpg";
   }
 
   update() {
